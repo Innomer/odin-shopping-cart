@@ -1,0 +1,55 @@
+.ccontainer{
+    height: 100%;
+}
+.cmain{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.cmain div{
+    background-color: gold;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 5rem;
+    box-shadow: 0px 0px 25px 5px black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    color: black;
+    padding: 2%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+}
+label{
+    padding: 1%;
+}
+input{
+    width: 50%;
+    align-self: center;
+    font-size: 2rem;
+}
+#des{
+    min-height: 20vh;
+}
+#sub{
+    margin: auto;
+    width: 25%;
+    justify-self: center;
+    margin-top: 4rem;
+    padding: 1%;
+    font-size: 1.5rem;
+    border-radius: 2px;
+}

@@ -2,8 +2,9 @@ import BottomBar from "./BottomBar";
 import NavBar from "./NavBar";
 import Product from "./Product";
 
-function ProductPage(){
-    var productList=[{name:"Backpack",price:19.99},{name:"Men's Casual TShirt",price:50.99},{name:"Men's Cotton Jacket",price:59.99},{name:"Women's Rain Jacket (Long)",price:39.99}];
+
+function ProductPage(props){
+    var productList=[{id:1,name:"Backpack",price:19.99},{id:2,name:"Men's Casual TShirt",price:50.99},{id:3,name:"Men's Cotton Jacket",price:59.99},{id:4,name:"Women's Rain Jacket (Long)",price:39.99}];
     return(
         <div>
             <NavBar/>
@@ -11,7 +12,7 @@ function ProductPage(){
                 <div>
                     {productList.map(product=>{
                         return(
-                            <Product name={product.name} price={product.price} />
+                            <Product id={product.id} name={product.name} price={product.price} cart={props.cart} ccart={props.ccart}/>
                         )
                     })}
                 </div>

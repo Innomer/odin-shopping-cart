@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import BottomBar from "./BottomBar";
 import NavBar from "./NavBar";
+import './MainPage.css';
 
-function MainPage()
+function MainPage(props)
 {
     const navigate=useNavigate();
 
@@ -10,10 +11,10 @@ function MainPage()
         navigate('/products');
     }
     return(
-        <div>
+        <div className="container">
             <NavBar/>
-            <div>
-                <p>Looking for Houses to buy?</p>
+            <div className="main">
+                <p>Looking for <b>Things</b> to buy?</p>
                 <button onClick={handleClick}>Shop Right Now</button>
             </div>
             <BottomBar/>

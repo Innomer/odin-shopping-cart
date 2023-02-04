@@ -1,0 +1,27 @@
+.container{
+    height: 100%;
+}
+.main{
+    display: flex;
+    text-align: center;
+    height: 100%;
+    font-size: 2.5rem;
+    color: whitesmoke;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+.main button{
+    font-size: 5rem;
+    background: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-style: italic;
+    width: fit-content;
+    padding: 1%;
+    align-self: center;
+    border: 0px;
+}
+.main button:hover{
+    border-bottom: 2px gold solid;
+}

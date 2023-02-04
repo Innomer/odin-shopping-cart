@@ -1,25 +1,25 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import './NavBar.css';
 
-export default function NavBar(){
+export default function NavBar() {
 
-    const[cur,setCur]=useState("");
-    const navigate=useNavigate();
-    function handleClick(event){
-        // console.log(event.target.name);  
-        var name=event.target.name.toLowerCase()
+    const [cur, setCur] = useState("");
+    const navigate = useNavigate();
+    function handleClick(event) {
+        var name = event.target.getAttribute("name").toLowerCase()
         setCur(name);
         navigate(`/${name}`);
     }
 
-    return(
+    return (
         <nav>
-            <div><p>NO WAY HOME</p></div>
-            <div>
-                <button onClick={handleClick} name="">Home</button>
-                <button onClick={handleClick} name="products">Products</button>
-                <button onClick={handleClick} name="contact">Contact</button>
-                <button>Cart</button>
+            <div><p>CHEAP THRIFTS</p></div>
+            <div id="buttons">
+            <p onClick={handleClick} name="">Home</p>
+            <p onClick={handleClick} name="products">Products</p>
+            <p onClick={handleClick} name="contact">Contact</p>
+            <p>Cart</p>
             </div>
         </nav>
     );
