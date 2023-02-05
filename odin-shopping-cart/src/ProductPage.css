@@ -1,0 +1,13 @@
+#productPage{
+    width: 50%;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color:burlywood;
+    max-height:100vh;
+}
+#productGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
