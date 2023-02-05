@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter basemname={`/${process.env.PUBLIC_URL}`}>
     <Routes>
       <Route element={<MainPage ccart={changeCart}/>} path='/odin-shopping-cart' />
-      <Route element={<ProductPage cart={cart} ccart={changeCart}/>} path='/products' />
-      <Route element={<ContactPage cart={cart}/>} path='/contact' />
-      <Route element={<CartPage cart={cart} ccart={changeCart} />} path='/cart'/>
+      <Route element={<ProductPage cart={cart} ccart={changeCart}/>} path='odin-shopping-cart/products' />
+      <Route element={<ContactPage cart={cart}/>} path='odin-shopping-cart/contact' />
+      <Route element={<CartPage cart={cart} ccart={changeCart} />} path='odin-shopping-cart/cart'/>
     </Routes>
     </BrowserRouter>
   );

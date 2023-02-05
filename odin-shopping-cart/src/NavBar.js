@@ -17,9 +17,9 @@ export default function NavBar() {
             <div><p>CHEAP THRIFTS</p></div>
             <div id="buttons">
             <p onClick={handleClick} name="odin-shopping-cart">Home</p>
-            <p onClick={handleClick} name="products">Products</p>
-            <p onClick={handleClick} name="contact">Contact</p>
-            <p onClick={handleClick} name="cart">Cart</p>
+            <p onClick={handleClick} name="odin-shopping-cart/products">Products</p>
+            <p onClick={handleClick} name="odin-shopping-cart/contact">Contact</p>
+            <p onClick={handleClick} name="odin-shopping-cart/cart">Cart</p>
             </div>
         </nav>
     );
