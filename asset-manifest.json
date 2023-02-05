@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.038312b9.css",
-    "main.js": "/static/js/main.fa9a212b.js",
-    "static/media/bg.jpg": "/static/media/bg.8e3f5c243421e0303bc4.jpg",
-    "static/media/backpack.png": "/static/media/backpack.0e48d511e729f6e4451c.png",
-    "static/media/tshirt.png": "/static/media/tshirt.9ed2c4ef13cb2f1c17ef.png",
-    "static/media/jacket.png": "/static/media/jacket.6f2d56971aaa6fd06520.png",
-    "static/media/rain.png": "/static/media/rain.69d82ca82c3520377884.png",
-    "index.html": "/index.html",
-    "main.038312b9.css.map": "/static/css/main.038312b9.css.map",
-    "main.fa9a212b.js.map": "/static/js/main.fa9a212b.js.map"
+    "main.css": "/odin-shopping-cart/static/css/main.acfd7071.css",
+    "main.js": "/odin-shopping-cart/static/js/main.d76b6a0e.js",
+    "static/media/bg.jpg": "/odin-shopping-cart/static/media/bg.8e3f5c243421e0303bc4.jpg",
+    "static/media/backpack.png": "/odin-shopping-cart/static/media/backpack.0e48d511e729f6e4451c.png",
+    "static/media/tshirt.png": "/odin-shopping-cart/static/media/tshirt.9ed2c4ef13cb2f1c17ef.png",
+    "static/media/jacket.png": "/odin-shopping-cart/static/media/jacket.6f2d56971aaa6fd06520.png",
+    "static/media/rain.png": "/odin-shopping-cart/static/media/rain.69d82ca82c3520377884.png",
+    "index.html": "/odin-shopping-cart/index.html",
+    "main.acfd7071.css.map": "/odin-shopping-cart/static/css/main.acfd7071.css.map",
+    "main.d76b6a0e.js.map": "/odin-shopping-cart/static/js/main.d76b6a0e.js.map"
   },
   "entrypoints": [
-    "static/css/main.038312b9.css",
-    "static/js/main.fa9a212b.js"
+    "static/css/main.acfd7071.css",
+    "static/js/main.d76b6a0e.js"
   ]
 }
